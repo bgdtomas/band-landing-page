@@ -9,8 +9,7 @@ const BandInfo = () => (
     <p>
       Indie rock band from Toronto, SEX BOB-OMB, comprising by (ex-members of
       the infamous bands: <u>Sonic and Knuckles</u> and <u>Kid Chameleon</u>
-      ) Stephen Stills (vocals and guitar), Scott Pilgrim (bass), Kim Pine
-      (drums) and Young Neil (biggest fan and understudy bass) are on tour this
+      ) Stephen Stills, Scott Pilgrim and Kim Pine are on tour this
       year to still make you think about death and get sad and stuff!
     </p>
   </div>

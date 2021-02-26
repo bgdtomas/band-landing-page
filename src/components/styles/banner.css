@@ -1,9 +1,10 @@
 .banner {
-  background-image: url("https://i.pinimg.com/originals/8d/5f/7e/8d5f7e4bde96bdf52e8a57484aa1eaae.gif");
-  height: 55vh;
+  background-color: #151515;
+  background-image: url("/src/images/BANNER.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: initial;
+  height: 55vh;
   position: relative;
   margin: 0%;
   color: white;

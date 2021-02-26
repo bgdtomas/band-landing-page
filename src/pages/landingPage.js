@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "../components/banner";
 import BandInfo from "../components/bandInfo";
 import MembersInfo from "../components/membersInfo";
+import BandPlaylist from "../components/bandPlaylist";
 
 class LandingPage extends React.Component{
 
@@ -11,7 +12,9 @@ class LandingPage extends React.Component{
             <Banner/>
             <BandInfo/>
             <MembersInfo/>
-            <h1>Hello world</h1>
+            <div className="bandRocking"></div>
+            <BandPlaylist/>
+            <div>hello world</div>
             </div>
         );
     }
