@@ -25,14 +25,17 @@ html {
   height: 100%;
 }
 
-.bandRocking{
-  background-image: url("/src/images/BANDBACKGROUND.png");
-  background-position:  50% 10%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 65vh;
-  width: auto;
-  margin-bottom: 10%;
+.biggerText{
+  font-size: 5vw;
+  margin-top: 0;
 }
 
+.bandRocking{
+  width:auto;
+  margin-bottom:5%;
+}
 
+.bandRocking img {
+  height : auto;
+  width: 100%;
+}

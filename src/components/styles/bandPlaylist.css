@@ -5,11 +5,9 @@
 }
 
 .albumImage {
-  background-image: url("/src/images/SBOvsTheWORLD.jpg");
-  background-position: 50% 10%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 600px;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
 }
 
 .songs {
@@ -22,5 +20,5 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  font-size: 3em;
+  font-size: 3vw;
 }
