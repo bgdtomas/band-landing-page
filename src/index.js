@@ -6,6 +6,7 @@ import "../src/components/styles/landingPage.css";
 import "../src/components/styles/bandInfo.css";
 import "../src/components/styles/bandPlaylist.css";
 import "../src/components/styles/membersInfo.css";
+import "../src/components/styles/shopSection.css";
 
 const container = document.getElementById("root");
 

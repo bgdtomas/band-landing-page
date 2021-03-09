@@ -3,6 +3,7 @@ import Banner from "../components/banner";
 import BandInfo from "../components/bandInfo";
 import MembersInfo from "../components/membersInfo";
 import BandPlaylist from "../components/bandPlaylist";
+import ShopSection from "../components/shopSection";
 import BandBackground from "../images/BANDBACKGROUND.png";
 
 class LandingPage extends React.Component {
@@ -16,6 +17,7 @@ class LandingPage extends React.Component {
           <img src={BandBackground} />
         </div>
         <BandPlaylist />
+        <ShopSection/>
         <div>hello world</div>
       </div>
     );

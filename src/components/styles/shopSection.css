@@ -1,0 +1,18 @@
+.shopSection{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.shopImage{
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+}
+
+.shopSection h1{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
