@@ -2,10 +2,11 @@
     position: relative;
     text-align: center;
     color: white;
+    margin: 0px 20% 10% 20%;
 }
 .shopImage{
-    width: 80%;
     max-width: 600px;
+    width: 100%;
     height: auto;
 }
 
