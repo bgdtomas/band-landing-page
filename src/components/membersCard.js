@@ -1,5 +1,4 @@
 import React from "react";
-import scott from "../images/scottPilgrim.jpg";
 
 class MembersCard extends React.Component {
   render() {

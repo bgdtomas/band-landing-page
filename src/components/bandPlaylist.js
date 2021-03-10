@@ -1,5 +1,4 @@
 import React from "react";
-import albumCover from "../images/SBOvsTheWORLD.jpg";
 import SongList from "../components/songList";
 import ShopSection from "../components/shopSection";
 
@@ -43,7 +42,7 @@ class BandPlaylist extends React.Component {
   render() {
     return (
       <div>
-        <h2>AVAILABLE FOR STREAM NOW</h2>
+        <h2>AVAILABLE FOR STREAMING NOW</h2>
         <h1 className="biggerText">"SCOTT PILGRIM VS THE WORLD"</h1>
         <div className="testSection">
           <ShopSection />

@@ -1,5 +1,5 @@
 .infoContainer {
-  background-color: #851e12;
+  background-color: #64130a;
   color: white;
   margin: 10% 15% 5% 15%;
   padding: 5% 0px 5% 0px;
@@ -22,12 +22,12 @@
   font-size: 1.5vw;
 }
 
-.infoContainer a {
+.tourButton {
     color: white;
   position: absolute;
   display: block;
   transform: rotate(-6deg);
-  background-color: #64130a;
+  background-color: #851e12;
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -38,7 +38,7 @@
   font-size: 1.5vw;
 }
 
-.infoContainer a:hover{
-    background-color: #791a0f;
+.tourButton:hover{
+  background-color: #64130a;
 
 }

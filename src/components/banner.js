@@ -3,9 +3,11 @@ import BannerImage from "../images/BANNER.png";
 
 const Banner = () => (
   <div className="banner">
-    <div className="bannerImage">
-      <img src={BannerImage} />
-    </div>
+    <a href="/home">
+      <div className="bannerImage">
+        <img src={BannerImage} />
+      </div>
+    </a>
   </div>
 );
 

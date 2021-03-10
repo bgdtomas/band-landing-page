@@ -20,3 +20,64 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.shirtsContainer {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin: 10% 20% 10% 20%;
+}
+
+.buyButton {
+  background-color: #851e12;
+  grid-area: overlap;
+  margin-top: 0;
+}
+
+.status {
+  margin-top: 0;
+  font-size: 1.7vw;
+  grid-area: overlap;
+  transform: rotate(-6deg);
+  background-color: #57150e;
+  display: none;
+}
+
+.buyButtonContainer:hover .status {
+  display: block;
+}
+.status {
+  display: none;
+}
+
+.shirtImage {
+  width: 100%;
+  object-fit: cover;
+}
+.shirtImage img{
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.singleShirtContainer {
+  display: grid;
+  grid-template-rows: 1fr repeat(2, 0.1fr);
+}
+
+.buyButtonContainer {
+  margin-left: 30%;
+  margin-right: 30%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "overlap";
+}
+
+.tourShop{
+  margin-top: -5%;
+  margin-bottom: 10%;
+  position: initial;
+  transform: rotate(6deg);
+}
