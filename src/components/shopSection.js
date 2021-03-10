@@ -6,7 +6,7 @@ class ShopSection extends React.Component {
     return (
       <div className="shopSection">
         <a href="/shop">
-            <img src={shopImage} className="shopImage" />
+          <img src={shopImage} className="shopImage" />
           <h1>BUY OUR MERCH!</h1>
         </a>
       </div>

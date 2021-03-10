@@ -1,19 +1,18 @@
 import React from "react";
-import kim from "../images/kimPine.jpg";
-import stephen from "../images/stephenStills.jpg";
 import scott from "../images/scottPilgrim.jpg";
 
 class MembersCard extends React.Component {
   render() {
+    const { name, description, age, img } = this.props;
     return (
-      <div >
+      <div>
         <div className="membersImage">
-            <img src={scott}/>
+          <img src={img} />
         </div>
         <div className="membersInfo">
-          NAME
-          <ul />
-          DESCRIPTION
+          <h1>{name}</h1>
+          <h2>{description}</h2>
+          <h2>{age}</h2>
         </div>
       </div>
     );
