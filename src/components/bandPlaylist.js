@@ -1,6 +1,7 @@
 import React from "react";
 import albumCover from "../images/SBOvsTheWORLD.jpg";
 import SongList from "../components/songList";
+import ShopSection from "../components/shopSection";
 
 class BandPlaylist extends React.Component {
   constructor(props) {
@@ -44,25 +45,28 @@ class BandPlaylist extends React.Component {
       <div>
         <h2>AVAILABLE FOR STREAM NOW</h2>
         <h1 className="biggerText">"SCOTT PILGRIM VS THE WORLD"</h1>
-        <div className="playlistContainer">
-          <div>
-            <iframe
-              src={this.state.song}
-              frameborder="0"
-              allowtransparency="true"
-              allow="encrypted-media"
-            ></iframe>
-          </div>
-          <div className="songs">
-            {this.state.data.map((songs) => {
-              return (
-                <SongList
-                  name={songs.name}
-                  link={songs.link}
-                  changeSong={this.changeSong}
-                />
-              );
-            })}
+        <div className="testSection">
+          <ShopSection />
+          <div className="playlistContainer">
+            <div className="songs">
+              {this.state.data.map((songs) => {
+                return (
+                  <SongList
+                    name={songs.name}
+                    link={songs.link}
+                    changeSong={this.changeSong}
+                  />
+                );
+              })}
+            </div>
+            <div>
+              <iframe
+                src={this.state.song}
+                frameborder="0"
+                allowtransparency="true"
+                allow="encrypted-media"
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>

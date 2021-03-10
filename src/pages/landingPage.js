@@ -18,7 +18,6 @@ class LandingPage extends React.Component {
           <img src={BandBackground} />
         </div>
         <BandPlaylist />
-        <ShopSection/>
         <Footer/>
       </div>
     );

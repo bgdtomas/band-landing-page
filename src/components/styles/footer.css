@@ -1,5 +1,5 @@
 .footer {
-  background-color: #851d12;
+  background-color: #24242469;
   width: 100%;
   text-align: center;
   display: grid;
@@ -20,8 +20,8 @@
 
 .footer section{
     display: flex;
-    justify-content: end;
-    margin-right: 2%;
+    justify-content: flex-end;
+    margin-right: 5%;
     align-items: center;
 }
 

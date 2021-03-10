@@ -11,6 +11,7 @@ const App = () => (
         <Redirect to="/home" />
       </Route>
       <Route exact path="/shop" component={Shop} />
+      <Route exact path="/tour_dates" component={Shop} />
       <Route exact path="/home" component={LandingPage} />
       <Route component={NotFound} />
     </Switch>
