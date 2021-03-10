@@ -1,0 +1,27 @@
+.footer {
+  background-color: #851d12;
+  width: 100%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.songLinks {
+  display: grid;
+  grid-template-columns: repeat(4, .1fr);
+  font-size: 3vw;
+}
+
+.linkImages {
+  width: 100%;
+  max-width: 30px;
+  height: auto;
+}
+
+.footer section{
+    display: flex;
+    justify-content: end;
+    margin-right: 2%;
+    align-items: center;
+}
+

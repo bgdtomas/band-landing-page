@@ -23,7 +23,7 @@ class MembersInfo extends React.Component {
             "https://firebasestorage.googleapis.com/v0/b/spvstw-4fc31.appspot.com/o/scottPilgrim.jpg?alt=media&token=2907374d-9cc3-4821-ba52-26b761d5cffb",
         },
         {
-          id: 2,
+          id: 3,
           name: "STEPHEN STILLS",
           description: '"THE TALENT"',
           age: "22 YEARS OLD",

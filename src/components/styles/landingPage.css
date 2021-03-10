@@ -25,6 +25,10 @@ html {
   height: 100%;
 }
 
+.cursorPointer{
+  cursor: pointer;
+}
+
 .biggerText{
   font-size: 5vw;
   margin-top: 0;

@@ -1,25 +1,68 @@
 import React from "react";
 import albumCover from "../images/SBOvsTheWORLD.jpg";
+import SongList from "../components/songList";
 
 class BandPlaylist extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      song: "https://open.spotify.com/embed/track/6tHpxFDLucR3Xs9nivuyiO",
+      data: [
+        {
+          id: 1,
+          name: "WE ARE SEX BOB OMB",
+          link: "https://open.spotify.com/embed/track/6tHpxFDLucR3Xs9nivuyiO",
+        },
+        {
+          id: 2,
+          name: "GARBAGE TRUCK",
+          link: "https://open.spotify.com/embed/track/4YbslGpDoOgJgH8wqSdfaP",
+        },
+        {
+          id: 3,
+          name: "THRESHOLD",
+          link: "https://open.spotify.com/embed/track/0Zq9KrBsJSWfnIgEyXi05b",
+        },
+        {
+          id: 4,
+          name: "SUMMERTIME",
+          link: "https://open.spotify.com/embed/track/2kHOFLXpz4PIh4bFg3a96r",
+        },
+      ],
+    };
+
+    this.changeSong = this.changeSong.bind(this);
+  }
+
+  changeSong(id) {
+    const songName = id.link;
+    this.setState({ song: songName });
+  }
+
   render() {
     return (
       <div>
-        <h2>
-          AVAILABLE FOR STREAM NOW
-        </h2>
-        <h1 className="biggerText">
-          "SCOTT PILGRIM VS THE WORLD"
-        </h1>
+        <h2>AVAILABLE FOR STREAM NOW</h2>
+        <h1 className="biggerText">"SCOTT PILGRIM VS THE WORLD"</h1>
         <div className="playlistContainer">
           <div>
-            <img src={albumCover} className="albumImage"/>
+            <iframe
+              src={this.state.song}
+              frameborder="0"
+              allowtransparency="true"
+              allow="encrypted-media"
+            ></iframe>
           </div>
           <div className="songs">
-            <div>WE ARE SEX BOB OMB</div>
-            <div>GARBAGE TRUCK</div>
-            <div>THRESHOLD</div>
-            <div>SUMMERTIME</div>
+            {this.state.data.map((songs) => {
+              return (
+                <SongList
+                  name={songs.name}
+                  link={songs.link}
+                  changeSong={this.changeSong}
+                />
+              );
+            })}
           </div>
         </div>
       </div>
