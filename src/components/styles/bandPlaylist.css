@@ -8,6 +8,10 @@
   grid-template-rows: repeat(4, 1fr);
 }
 
+.mediaPlayerMobile {
+  display: none;
+}
+
 .songs div {
   margin-right: 10%;
   display: flex;
@@ -16,17 +20,57 @@
   font-size: 1.5vw;
 }
 
-.underline:Hover{
+.songsMobile {
+  display: none;
+}
+
+.underline:hover {
   text-decoration: underline;
 }
 
-iframe{
+.mediaPlayer {
   width: 100%;
-  height: 50vh;
 }
 
-.testSection{
+.mediaPlayer iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.mediaSection {
   display: grid;
-  grid-template-columns:.5fr 1fr;
-  margin: 0px 15% 10% 15%;
+  grid-template-columns: 0.5fr 1fr;
+  margin: 0px 15% 5% 15%;
+}
+.h1Mobile{
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .mediaSection {
+    display: block;
+    margin-bottom: 15%;
+  }
+  .playlistContainer {
+    display: none;
+  }
+  .songsMobile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 0% 20% 0% 20%;
+    padding: 2% 0% 2% 0% ;
+    font-size: 1.5vh;
+    background-color: #851e12;
+    text-decoration: underline;
+  }
+  .mediaPlayerMobile {
+    display: block;
+    margin: 0 10% 10% 10%;
+    height: 80;
+    width: 80%;
+  }
+  .h1Mobile{
+    display: block;
+  }
 }

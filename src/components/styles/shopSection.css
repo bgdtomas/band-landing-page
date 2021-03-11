@@ -8,12 +8,16 @@
   align-items: center;
 }
 .shopImage {
-  max-width: 400px;
+  object-fit: cover;
+}
+
+.shopImage img {
   width: 100%;
   height: auto;
 }
 
 .shopSection h1 {
+  font-size: 2vw;
   color: white;
   position: absolute;
   top: 50%;
@@ -22,11 +26,15 @@
 }
 
 .shirtsContainer {
-  height: 100%;
+
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  margin: 10% 20% 10% 20%;
+  margin: 5% 10% 10% 10%;
+}
+
+.singleShirtContainer h1{
+  font-size: 2vw;
 }
 
 .buyButton {
@@ -52,15 +60,15 @@
   width: 100%;
   object-fit: cover;
 }
-.shirtImage img{
+.shirtImage img {
   width: 100%;
   object-fit: cover;
 }
 
-
 .singleShirtContainer {
   display: grid;
   grid-template-rows: 1fr repeat(2, 0.1fr);
+  margin: 0% 2% 0% 2%;
 }
 
 .buyButtonContainer {
@@ -72,9 +80,41 @@
   grid-template-areas: "overlap";
 }
 
-.tourShop{
+.tourShop {
   margin-top: -5%;
   margin-bottom: 10%;
   position: initial;
   transform: rotate(6deg);
 }
+
+.tourShop:hover{
+  transform: rotate(-6deg);
+}
+
+
+@media (max-width: 1100px) {
+  .status{
+    display: block;
+  }
+  .shirtsContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10% 10% 10% 15%;
+  }
+  .tourShop {
+    margin-top: 0;
+  }
+  .singleShirtContainer h1{
+    font-size: 5vw;
+  
+  }
+
+  .tourShop {
+    font-size: 5vw;
+  }
+  .shopSection h1 {
+    font-size: 7vw;
+  }
+  
+}
+

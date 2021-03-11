@@ -44,7 +44,28 @@ class BandPlaylist extends React.Component {
       <div>
         <h2>AVAILABLE FOR STREAMING NOW</h2>
         <h1 className="biggerText">"SCOTT PILGRIM VS THE WORLD"</h1>
-        <div className="testSection">
+        <h1 className="biggerText h1Mobile">CHOOSE A SONG, IT'S ON THE HOUSE !</h1>
+        <div className="songsMobile">
+          {this.state.data.map((songs) => {
+            return (
+              <SongList
+                name={songs.name}
+                link={songs.link}
+                changeSong={this.changeSong}
+              />
+            );
+          })}
+        </div>
+        <iframe
+          className="mediaPlayerMobile"
+          src={this.state.song}
+          width="300"
+          height="80"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media"
+        ></iframe>
+        <div className="mediaSection">
           <ShopSection />
           <div className="playlistContainer">
             <div className="songs">
@@ -58,7 +79,7 @@ class BandPlaylist extends React.Component {
                 );
               })}
             </div>
-            <div>
+            <div class="mediaPlayer">
               <iframe
                 src={this.state.song}
                 frameborder="0"

@@ -2,7 +2,7 @@ import React from "react";
 
 class TourDates extends React.Component {
   render() {
-    const { day, year, city, stadium, status } = this.props;
+    const { day, year, city, stadium, status, button } = this.props;
     return (
       <div>
         <div className="datesTable">
@@ -15,7 +15,12 @@ class TourDates extends React.Component {
             <h3>{stadium}</h3>
           </div>
           <a className="datesButton" href="/shop">
-            <h2 className="datesBuyButton cursorPointer">TICKETS</h2>
+            <div className="redBomb">
+              <img src={button}/>
+            </div>
+            <h2 className="datesBuyButton cursorPointer">
+              TICKETS
+            </h2>
             <h3 className="datesStatus cursorPointer">{status}</h3>
           </a>
         </div>

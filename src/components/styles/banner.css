@@ -1,17 +1,25 @@
 .banner {
-  height: 50vh;
   background-color: #151515;
   color: white;
   object-fit: contain;
 }
 
-.bannerImage{
-  width:auto;
-  margin-bottom:5%;
+.bannerImage {
+  object-fit: cover;
 }
 
 .bannerImage img {
-  width: auto;
-  height: 50vh;
-  object-fit: scale-down;
+  width: 40vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 1100px) {
+  .bannerImage img {
+    width: 20vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

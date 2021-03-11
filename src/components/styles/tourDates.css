@@ -9,6 +9,10 @@
   grid-template-rows: repeat(2, 1fr);
 }
 
+.bandLogo {
+  margin-bottom: 15%;
+}
+
 .tourDates h2,
 .tourDates h3,
 .datesLocation h3,
@@ -37,7 +41,7 @@
 }
 
 .datesBuyButton {
-  background-color: #851e12;
+  /* background-color: #851e12; */
   grid-area: overlap;
   width: 7vw;
   height: 7vw;
@@ -50,28 +54,28 @@
   background-color: #57150e;
   display: none;
   width: 50%;
-  height: 50%;
+  height: 30%;
 }
 
 .datesButton:hover .datesStatus {
   display: flex;
 }
 
-.bandLogo:hover{
-    animation: pulse 2s ;
-    animation-fill-mode: backwards;
-    animation-direction: alternate ;
-	animation-iteration-count: infinite;
+.bandLogo:hover {
+  animation: pulse 2s;
+  animation-fill-mode: backwards;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
 }
 
-@keyframes pulse  {
-    50%{
-        transform: rotate(30deg);
-    }
-    100% {
-      transform: rotate(-30deg);
-    }
+@keyframes pulse {
+  50% {
+    transform: rotate(30deg);
   }
+  100% {
+    transform: rotate(-30deg);
+  }
+}
 
 .datesButton {
   display: grid;
@@ -80,4 +84,43 @@
   grid-template-areas: "overlap";
   color: white;
   text-decoration: none;
+}
+
+.redBomb {
+  grid-area: overlap;
+  margin: 0% 40% 0% 40%;
+  object-fit: cover;
+}
+
+.redBomb img {
+  width: 10vw;
+  height: auto;
+  margin-bottom: 15%;
+}
+
+@media (max-width: 1100px) {
+  .tourDates h2,
+  .tourDates h3,
+  .datesLocation h3,
+  .datesLocation h2,
+  .datesBuyButton,
+  .datesStatus {
+    font-size: 3vw;
+  }
+
+  .datesBuyButton {
+    width: 12vw;
+    height: 12vw;
+  }
+  .datesStatus {
+    display: flex;
+    width: 50%;
+    height: 20%;
+  }
+
+  .redBomb img {
+    width: 15vw;
+    height: auto;
+    margin-bottom: 10%;
+  }
 }

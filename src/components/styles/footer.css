@@ -26,3 +26,22 @@
   align-items: center;
   height: auto;
 }
+
+@media (max-width: 1100px) {
+  .footer section {
+    display: none;
+  }
+
+  .footer {
+    background-color: #242424;
+    grid-template-columns: 1fr;
+    padding: 5% 0% 5% 0%;
+  }
+
+  
+.songLinks {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 3vw;
+}
+}

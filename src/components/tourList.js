@@ -5,6 +5,8 @@ class TourList extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      redBomb:
+        "https://firebasestorage.googleapis.com/v0/b/spvstw-4fc31.appspot.com/o/REDBOMB.png?alt=media&token=ea2f9fd9-5a32-47b3-a347-a6ea6abd61f9",
       data: [
         {
           id: 1,
@@ -93,20 +95,22 @@ class TourList extends React.Component {
     return (
       <div>
         <h1 className="tourName">TORONTO TOUR</h1>
-        <div class="tourDateContainer">{this.state.data.map((dates) => {
-          return (
-            <TourDates
-              day={dates.day}
-              year={dates.year}
-              city={dates.city}
-              stadium={dates.stadium}
-              status={dates.status}
-            />
-          );
-        })}
+        <div class="tourDateContainer">
+          {this.state.data.map((dates) => {
+            return (
+              <TourDates
+                button={this.state.redBomb}
+                day={dates.day}
+                year={dates.year}
+                city={dates.city}
+                stadium={dates.stadium}
+                status={dates.status}
+              />
+            );
+          })}
         </div>
         <a className="bandLogo cursorPointer" href="/">
-            <img src="https://firebasestorage.googleapis.com/v0/b/spvstw-4fc31.appspot.com/o/SEXBOBOMB.png?alt=media&token=aa0cfea0-426c-4c20-8442-946f580cff65"/>
+          <img src="https://firebasestorage.googleapis.com/v0/b/spvstw-4fc31.appspot.com/o/SEXBOBOMB.png?alt=media&token=aa0cfea0-426c-4c20-8442-946f580cff65" />
         </a>
       </div>
     );
