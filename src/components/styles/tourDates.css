@@ -4,11 +4,6 @@
   background-color: #24242469;
 }
 
-.tourDates {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-}
-
 .bandLogo {
   margin-bottom: 15%;
 }
@@ -36,6 +31,7 @@
   font-size: 1.5vw;
 }
 
+.tourDates h3,
 .datesLocation h3 {
   font-size: 2vw;
 }
@@ -99,13 +95,16 @@
 }
 
 @media (max-width: 1100px) {
+
+  .datesStatus {
+    font-size: 3vw;
+  }
   .tourDates h2,
   .tourDates h3,
   .datesLocation h3,
   .datesLocation h2,
-  .datesBuyButton,
-  .datesStatus {
-    font-size: 3vw;
+  .datesBuyButton {
+    font-size: 4vw;
   }
 
   .datesBuyButton {
@@ -119,7 +118,7 @@
   }
 
   .redBomb img {
-    width: 15vw;
+    width: 20vw;
     height: auto;
     margin-bottom: 10%;
   }

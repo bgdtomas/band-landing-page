@@ -99,14 +99,18 @@
   .shirtsContainer {
     display: grid;
     grid-template-columns: 1fr;
-    margin: 10% 10% 10% 15%;
+    margin: 0% 10% 10% 15%;
+  }
+  .singleShirtContainer {
+    margin: 0% 0% 10% 0%;
   }
   .tourShop {
     margin-top: 0;
+    margin-bottom: 15%;
   }
   .singleShirtContainer h1{
     font-size: 5vw;
-  
+    margin: 1%;
   }
 
   .tourShop {

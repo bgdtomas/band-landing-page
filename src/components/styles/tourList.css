@@ -1,5 +1,5 @@
 .tourDateContainer {
-  margin: 1% 15% 5% 15%;
+  margin: 1% 10% 5% 10%;
 }
 
 .tourDateContainer hr {
@@ -12,18 +12,25 @@
 }
 
 .bandLogo {
-    margin: 0% 40% 0% 40%;
+  margin: 0% 40% 0% 40%;
   object-fit: cover;
+  margin-bottom: 5%;
 }
 
 .bandLogo img {
-  width:20vw;
+  width: 20vw;
   height: auto;
-  margin-bottom: 15%;
 }
 
 @media (max-width: 1100px) {
-    .tourDateContainer {
-        margin: 5% 0% 10% 0%;
-      }
+  .bandLogo {
+      margin-bottom: 10%;
   }
+  .bandLogo img {
+    width: 30vw;
+  }
+
+  .tourDateContainer {
+    margin: 5% 0% 10% 0%;
+  }
+}
