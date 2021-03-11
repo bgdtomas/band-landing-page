@@ -38,12 +38,14 @@ class MembersInfo extends React.Component {
       <div className="membersContainer">
         <div className="membersCard">
           {this.state.data.map((card) => {
-            return <MembersCard 
-              img={card.img}
-              name={card.name}
-              description={card.description}
-              age={card.age}
-            />;
+            return (
+              <MembersCard
+                img={card.img}
+                name={card.name}
+                description={card.description}
+                age={card.age}
+              />
+            );
           })}
         </div>
       </div>

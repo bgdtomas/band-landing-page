@@ -38,10 +38,9 @@
     padding: 5% 0% 5% 0%;
   }
 
-  
-.songLinks {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  font-size: 3vw;
-}
+  .songLinks {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 3vw;
+  }
 }

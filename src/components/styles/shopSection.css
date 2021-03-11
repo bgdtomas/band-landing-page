@@ -27,14 +27,13 @@
 }
 
 .shirtsContainer {
-
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   margin: 5% 10% 10% 10%;
 }
 
-.singleShirtContainer h1{
+.singleShirtContainer h1 {
   font-size: 2vw;
 }
 
@@ -88,13 +87,12 @@
   transform: rotate(6deg);
 }
 
-.tourShop:hover{
+.tourShop:hover {
   transform: rotate(-6deg);
 }
 
-
 @media (max-width: 700px) {
-  .status{
+  .status {
     display: block;
   }
   .shirtsContainer {
@@ -109,7 +107,7 @@
     margin-top: 0;
     margin-bottom: 15%;
   }
-  .singleShirtContainer h1{
+  .singleShirtContainer h1 {
     font-size: 5vw;
     margin: 1%;
   }
@@ -123,6 +121,4 @@
   .shopImage img {
     max-width: 50vw;
   }
-  
 }
-

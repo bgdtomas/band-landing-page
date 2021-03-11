@@ -32,8 +32,7 @@
 }
 
 @media (max-width: 700px) {
-
-  .membersCard{
+  .membersCard {
     font-size: 2vw;
   }
   .membersContainer {

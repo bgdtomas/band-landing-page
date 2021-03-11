@@ -2,19 +2,18 @@ body,
 #app {
   background-color: #151515;
   background-image: url("/src/images/BACKGROUND.png");
-  background-size: 400px ;
+  background-size: 400px;
   margin: 0;
   margin: 0;
   padding: 0;
-  font-family: "Truculenta", sans-serif;  
-  user-select: none; 
-  color:#fff;
+  font-family: "Truculenta", sans-serif;
+  user-select: none;
+  color: #fff;
   text-align: center;
-  text-shadow:2px 2px 10px #000;
+  text-shadow: 2px 2px 10px #000;
 }
 
-
-body{
+body {
   height: 100vh;
 }
 
@@ -30,40 +29,37 @@ html {
   min-height: 100%;
 }
 
-
 #root {
   width: 100%;
   height: 100%;
 }
 
-.cursorPointer{
+.cursorPointer {
   cursor: pointer;
 }
 
-.biggerText{
+.biggerText {
   font-size: 5vw;
   margin-top: 0;
 }
 
-.bandRocking{
-  width:auto;
-  margin-bottom:5%;
+.bandRocking {
+  width: auto;
+  margin-bottom: 5%;
 }
 
 .bandRocking img {
-  height : auto;
+  height: auto;
   width: 100%;
 }
 
-.testSection{
+.testSection {
   display: grid;
-  grid-template-columns: 1fr .2fr;
+  grid-template-columns: 1fr 0.2fr;
 }
 
-
 @media (max-width: 700px) {
-  
-  .biggerText{
+  .biggerText {
     display: none;
   }
 }

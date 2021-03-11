@@ -8,7 +8,7 @@ class ShoppingShirts extends React.Component {
       data: [
         {
           id: 1,
-          name:"Scott Pilgrim vs. The World: Original Score Vinyl",
+          name: "Scott Pilgrim vs. The World: Original Score Vinyl",
           price: "59.99 $",
           status: "SOLD OUT",
           img:
@@ -16,7 +16,7 @@ class ShoppingShirts extends React.Component {
         },
         {
           id: 2,
-          name:"Scott Pilgrim vs. the World Original Vinyl",
+          name: "Scott Pilgrim vs. the World Original Vinyl",
           price: "59.99 $",
           status: "SOLD OUT",
           img:
@@ -24,7 +24,7 @@ class ShoppingShirts extends React.Component {
         },
         {
           id: 3,
-          name:"SEX BOB-OMBER SHIRT",
+          name: "SEX BOB-OMBER SHIRT",
           price: "25.99 $",
           status: "SOLD OUT",
           img:
@@ -32,7 +32,7 @@ class ShoppingShirts extends React.Component {
         },
         {
           id: 4,
-          name:"SEX BOB-OMB LOGO SHIRT",
+          name: "SEX BOB-OMB LOGO SHIRT",
           price: "25.99 $",
           status: "SOLD OUT",
           img:
@@ -40,7 +40,7 @@ class ShoppingShirts extends React.Component {
         },
         {
           id: 5,
-          name:"SEX BOB-OMB CHAOS THEATRE SHIRT",
+          name: "SEX BOB-OMB CHAOS THEATRE SHIRT",
           price: "25.99 $",
           status: "SOLD OUT",
           img:
@@ -48,7 +48,7 @@ class ShoppingShirts extends React.Component {
         },
         {
           id: 6,
-          name:"READY SLAYER ONE SHIRT",
+          name: "READY SLAYER ONE SHIRT",
           price: "25.99 $",
           status: "SOLD OUT",
           img:

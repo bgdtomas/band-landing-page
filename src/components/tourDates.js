@@ -16,11 +16,9 @@ class TourDates extends React.Component {
           </div>
           <a className="datesButton" href="/shop">
             <div className="redBomb">
-              <img src={button}/>
+              <img src={button} />
             </div>
-            <h2 className="datesBuyButton cursorPointer">
-              TICKETS
-            </h2>
+            <h2 className="datesBuyButton cursorPointer">TICKETS</h2>
             <h3 className="datesStatus cursorPointer">{status}</h3>
           </a>
         </div>

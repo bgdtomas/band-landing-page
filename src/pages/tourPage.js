@@ -10,7 +10,7 @@ class TourPage extends React.Component {
         <Banner />
         <TourList />
         <div className="footerSticky">
-        <Footer/>   
+          <Footer />
         </div>
       </div>
     );
