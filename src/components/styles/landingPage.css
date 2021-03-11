@@ -59,3 +59,11 @@ html {
   display: grid;
   grid-template-columns: 1fr .2fr;
 }
+
+
+@media (max-width: 700px) {
+  
+  .biggerText{
+    display: none;
+  }
+}

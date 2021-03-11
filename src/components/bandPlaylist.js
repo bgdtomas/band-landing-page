@@ -44,7 +44,6 @@ class BandPlaylist extends React.Component {
       <div>
         <h2>AVAILABLE FOR STREAMING NOW</h2>
         <h1 className="biggerText">"SCOTT PILGRIM VS THE WORLD"</h1>
-        <h1 className="biggerText h1Mobile">CHOOSE A SONG, IT'S ON THE HOUSE !</h1>
         <div className="songsMobile">
           {this.state.data.map((songs) => {
             return (
