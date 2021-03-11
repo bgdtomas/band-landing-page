@@ -8,9 +8,9 @@ body,
   padding: 0;
   font-family: "Truculenta", sans-serif;  
   user-select: none; 
-  color:white;
+  color:#fff;
   text-align: center;
-  text-shadow:2px 2px 10px black;
+  text-shadow:2px 2px 10px #000;
 }
 
 

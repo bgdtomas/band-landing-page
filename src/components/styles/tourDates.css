@@ -78,7 +78,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "overlap";
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 

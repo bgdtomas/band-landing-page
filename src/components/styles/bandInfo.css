@@ -1,6 +1,5 @@
 .infoContainer {
   background-color: #64130a;
-  color: white;
   margin: 10% 15% 5% 15%;
   padding: 5% 0px 5% 0px;
   text-align: center;
@@ -23,7 +22,7 @@
 }
 
 .tourButton {
-  color: white;
+  color: #ffffff;
   position: absolute;
   display: block;
   transform: rotate(-6deg);
