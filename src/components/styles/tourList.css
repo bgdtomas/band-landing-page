@@ -1,0 +1,23 @@
+.tourDateContainer {
+  margin: 1% 15% 5% 15%;
+}
+
+.tourDateContainer hr {
+  border-top: 0.1px solid white;
+  margin: 0%;
+}
+
+.tourName {
+  font-size: 4vw;
+}
+
+.bandLogo {
+    margin: 0% 40% 0% 40%;
+  object-fit: cover;
+}
+
+.bandLogo img {
+  width:20vw;
+  height: auto;
+  margin-bottom: 15%;
+}

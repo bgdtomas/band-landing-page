@@ -47,9 +47,6 @@
 .buyButtonContainer:hover .status {
   display: block;
 }
-.status {
-  display: none;
-}
 
 .shirtImage {
   width: 100%;

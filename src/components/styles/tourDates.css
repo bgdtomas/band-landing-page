@@ -1,0 +1,67 @@
+.datesTable {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  background-color: #24242469;
+}
+
+.tourDates {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.tourDates h2,
+.tourDates h3,
+.datesLocation h3,
+.datesLocation h2,
+.datesBuyButton,
+.datesStatus,
+.datesButton,
+.bandLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.tourDates h2,
+.tourDates h3,
+.datesLocation h3,
+.datesLocation h2,
+.datesBuyButton,
+.datesStatus {
+  font-size: 1.5vw;
+}
+
+.datesLocation h3 {
+  font-size: 2vw;
+}
+
+.datesBuyButton {
+  background-color: #851e12;
+  grid-area: overlap;
+  width: 7vw;
+  height: 7vw;
+  border-radius: 100%;
+}
+
+.datesStatus {
+  grid-area: overlap;
+  transform: rotate(-6deg);
+  background-color: #57150e;
+  display: none;
+  width: 50%;
+  height: 50%;
+}
+
+.datesButton:hover .datesStatus {
+  display: flex;
+}
+
+.datesButton {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "overlap";
+  color: white;
+  text-decoration: none;
+}

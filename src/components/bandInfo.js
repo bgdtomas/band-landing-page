@@ -12,7 +12,7 @@ const BandInfo = () => (
       ) Stephen Stills, Scott Pilgrim and Kim Pine are on tour this
       year to still make you think about death and get sad and stuff!
     </p>
-    <a href="/shop" className="cursorPointer tourButton">
+    <a href="/tour" className="cursorPointer tourButton">
       SEE UPCOMING TOUR DATES !
     </a>
   </div>

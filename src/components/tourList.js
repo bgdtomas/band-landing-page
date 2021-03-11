@@ -92,7 +92,7 @@ class TourList extends React.Component {
   render() {
     return (
       <div>
-        <h1>TORONTO TOUR</h1>
+        <h1 className="tourName">TORONTO TOUR</h1>
         <div class="tourDateContainer">{this.state.data.map((dates) => {
           return (
             <TourDates
@@ -100,11 +100,14 @@ class TourList extends React.Component {
               year={dates.year}
               city={dates.city}
               stadium={dates.stadium}
-              city={dates.status}
+              status={dates.status}
             />
           );
         })}
         </div>
+        <a className="bandLogo cursorPointer" href="/">
+            <img src="https://firebasestorage.googleapis.com/v0/b/spvstw-4fc31.appspot.com/o/SEXBOBOMB.png?alt=media&token=aa0cfea0-426c-4c20-8442-946f580cff65"/>
+        </a>
       </div>
     );
   }
