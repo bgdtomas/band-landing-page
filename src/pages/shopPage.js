@@ -3,13 +3,13 @@ import Banner from "../components/banner";
 import Footer from "../components/footer";
 import ShoppingShirts from "../components/shoppingShirts";
 
-class Shop extends React.Component {
+class ShopPage extends React.Component {
   render() {
     return (
       <div>
         <Banner />
         <ShoppingShirts />
-        <a href="/shop" className="cursorPointer tourButton tourShop">
+        <a href="/tour" className="cursorPointer tourButton tourShop">
           SEE UPCOMING TOUR DATES !
         </a>
         <Footer />
@@ -18,4 +18,4 @@ class Shop extends React.Component {
   }
 }
 
-export default Shop;
+export default ShopPage;
