@@ -57,6 +57,22 @@
   display: flex;
 }
 
+.bandLogo:hover{
+    animation: pulse 2s ;
+    animation-fill-mode: backwards;
+    animation-direction: alternate ;
+	animation-iteration-count: infinite;
+}
+
+@keyframes pulse  {
+    50%{
+        transform: rotate(30deg);
+    }
+    100% {
+      transform: rotate(-30deg);
+    }
+  }
+
 .datesButton {
   display: grid;
   grid-template-columns: 1fr;
